@@ -1,0 +1,47 @@
+.flex-row-1, .flex-row-2, .flex-row-3, .flex-row-4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.flex-row-2, .flex-row-3{
+    background: url('https://cdn.pixabay.com/photo/2020/07/27/20/44/green-5443435_1280.jpg');
+}
+.flex-row-3, .flex-row-4{
+    justify-content: center;
+}
+.flex-row-3 button{
+    margin-right: 15px;
+}
+.flex-row-4 h4{
+    padding-right: 15px;
+    font-weight: bold;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+.flex-row-2 div{
+    border: 3px solid black;
+    padding: 10px;
+    flex: 1; /*To divide or utilize space evenly*/
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 490px;
+}
+.flex-row-2 div h2{
+    color: white;
+    font-weight: bold;
+}
+.win{
+    color: green;
+}
+.draw{
+    color: darkslategray;
+}
+.lose{
+    color: firebrick;
+}
